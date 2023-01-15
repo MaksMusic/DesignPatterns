@@ -7,5 +7,6 @@ public class Main {
 
         System.out.println(auto);
         System.out.println(auto1);
+
     }
 }
