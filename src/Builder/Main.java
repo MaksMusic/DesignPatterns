@@ -8,5 +8,14 @@ public class Main {
         System.out.println(auto);
         System.out.println(auto1);
 
+
+        // пример 2
+        Smartphone smartphone = new Smartphone.Builder()
+                .setModel("Samsung")
+                .setMemory(16.0)
+                .setPrice(70000)
+                .build();
+
+       smartphone.info();
     }
 }
